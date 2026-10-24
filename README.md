@@ -1,6 +1,6 @@
 
-
-<img width="1208" height="1224" alt="imgupscaler-enhanced" src="https://github.com/user-attachments/assets/2372ef9c-60bb-4595-b7d9-8a6371f25b51" />
+<p align="center">
+<img width="500" height="500" alt="imgupscaler-enhanced" src="https://github.com/user-attachments/assets/2372ef9c-60bb-4595-b7d9-8a6371f25b51" />
 
 
 
