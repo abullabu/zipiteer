@@ -17,7 +17,7 @@
     <a href="#peek-mode">Peek Mode</a> •
     <a href="#installation">Installation</a> •
     <a href="#safety-and-integrity">Safety</a> •
-    <a href="[#license](https://github.com/abullabu/zipiteer/blob/main/LICENSE)">License</a>
+    <a href="https://github.com/abullabu/zipiteer/blob/main/LICENSE">License</a>
   </p>
 
 </div>
@@ -82,11 +82,5 @@ Prerequisites: Go 1.22+, Node.js, and Wails v2.
 
 ```powershell
 # Clone the repository
-git clone [https://github.com/abullabu/zipiteer.git](https://github.com/abullabu/zipiteer.git)
+git clone (https://github.com/abullabu/zipiteer.git)
 cd zipiteer
-
-# Compile CLI and GUI binaries
-.\build.ps1
-
-# Optional: Generate the Inno Setup installer package
-.\build.ps1 -Installer
