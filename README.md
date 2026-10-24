@@ -17,6 +17,10 @@
 
 ---
 
+
+<img width="1198" height="799" alt="image" src="https://github.com/user-attachments/assets/edd8213b-d368-4e20-9c96-70f92e477ddb" />
+
+
 ## The Problem
 
 Extracting a 70 GB game archive on an SSD with only 80 GB of free space always fails with traditional archivers. Tools like WinRAR or 7-Zip keep the archive intact until decompression is fully complete, effectively demanding double the storage capacity: the compressed archive plus the extracted files.
