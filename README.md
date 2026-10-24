@@ -17,7 +17,7 @@
     <a href="#peek-mode">Peek Mode</a> •
     <a href="#installation">Installation</a> •
     <a href="#safety-and-integrity">Safety</a> •
-    <a href="#license">License</a>
+    <a href="[#license](https://github.com/abullabu/zipiteer/blob/main/LICENSE)">License</a>
   </p>
 
 </div>
@@ -59,6 +59,16 @@ Launching an archive with the "Peek with Zipiteer" context action opens the insp
 - Exclude unnecessary directories or files using the interface toggles.
 - Excluded entries are bypassed in the stream without hitting the destination disk.
 - Note: Because extraction is destructive to the archive, unchecked files are permanently discarded alongside the consumed source archive.
+
+---
+
+## Safety and Integrity
+
+Zipiteer modifies archives in place, so data safety is built into the extraction loop:
+
+- **Strict CRC-32 Verification:** Archive data is never truncated or deleted until the extracted output file has passed byte-level CRC verification.
+- **Fail-Safe Abort:** If an archive entry is corrupted or fails integrity checks, extraction stops immediately to preserve the untouched portions of the archive.
+- **Journaled State Machine:** If extraction is interrupted by a power cut or system crash, the internal journal identifies completed files so you can resume extraction without starting over.
 
 ---
 
