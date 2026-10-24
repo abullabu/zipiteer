@@ -1,3 +1,10 @@
+
+
+<img width="1208" height="1224" alt="imgupscaler-enhanced" src="https://github.com/user-attachments/assets/2372ef9c-60bb-4595-b7d9-8a6371f25b51" />
+
+
+
+
 <div align="center">
 
   <h1>Zipiteer</h1>
