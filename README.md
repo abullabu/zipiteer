@@ -74,6 +74,8 @@ Zipiteer modifies archives in place, so data safety is built into the extraction
 
 ## Installation
 
+> **Note on Windows SmartScreen:** Because Zipiteer is a newly released, open-source indie tool without an expensive corporate signing certificate, Windows SmartScreen may show an "Unknown Publisher" warning. Click **"More info" -> "Run anyway"**. You can inspect the full source code and build it yourself from source if preferred.
+
 ### Pre-built Installer
 Download the latest `Zipiteer-Setup-1.0.0.exe` from the [Releases](https://github.com/abullabu/zipiteer/releases) page. The installer sets up the required binaries, desktop shortcuts, and shell context menu associations.
 
@@ -85,4 +87,4 @@ Prerequisites: Go 1.22+, Node.js, and Wails v2.
 git clone (https://github.com/abullabu/zipiteer.git)
 cd zipiteer
 
-> **Note on Windows SmartScreen:** Because Zipiteer is a newly released, open-source indie tool without an expensive corporate signing certificate, Windows SmartScreen may show an "Unknown Publisher" warning. Click **"More info" -> "Run anyway"**. You can inspect the full source code and build it yourself from source if preferred.
+
